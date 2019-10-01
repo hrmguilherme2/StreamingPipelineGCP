@@ -1,0 +1,19 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/semantix/Documents/Beam/target/scala-2.12/beam-template_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/semantix/Documents/Beam/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/guilherme/Beam$TestOptions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/semantix/Documents/Beam/target/scala-2.12/classes/com/guilherme/Beam$TestOptions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/guilherme/Beam.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/semantix/Documents/Beam/target/scala-2.12/classes/com/guilherme/Beam.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/guilherme/Beam$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/semantix/Documents/Beam/target/scala-2.12/classes/com/guilherme/Beam$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/guilherme/Beam$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/semantix/Documents/Beam/target/scala-2.12/classes/com/guilherme/Beam$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/guilherme[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/semantix/Documents/Beam/target/scala-2.12/classes/com/guilherme[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/guilherme/Beam$MyDoFn.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/semantix/Documents/Beam/target/scala-2.12/classes/com/guilherme/Beam$MyDoFn.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/semantix/Documents/Beam/target/scala-2.12/classes/logback.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

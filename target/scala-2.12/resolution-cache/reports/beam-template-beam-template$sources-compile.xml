@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="beam-template"
+		module="beam-template$sources"
+		revision="0.1-SNAPSHOT"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190930112415"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.4" status="release" pubdate="20171011042224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2637" time="0" location="/home/semantix/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="582957" time="2924" location="/home/semantix/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.dataflow" name="google-cloud-dataflow-java-sdk-all">
+			<revision name="2.1.0" status="release" pubdate="20170901180942" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6200" time="0" location="/home/semantix/.ivy2/cache/com.google.cloud.dataflow/google-cloud-dataflow-java-sdk-all/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/dataflow/google-cloud-dataflow-java-sdk-all/2.1.0/google-cloud-dataflow-java-sdk-all-2.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-cloud-dataflow-java-sdk-all" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5543" time="898" location="/home/semantix/.ivy2/cache/com.google.cloud.dataflow/google-cloud-dataflow-java-sdk-all/srcs/google-cloud-dataflow-java-sdk-all-2.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/dataflow/google-cloud-dataflow-java-sdk-all/2.1.0/google-cloud-dataflow-java-sdk-all-2.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.beam" name="beam-runners-google-cloud-dataflow-java">
+			<revision name="2.1.0" status="release" pubdate="20170808165618" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="42000" time="0" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-runners-google-cloud-dataflow-java/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/beam/beam-runners-google-cloud-dataflow-java/2.1.0/beam-runners-google-cloud-dataflow-java-2.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="beam-runners-google-cloud-dataflow-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="156972" time="3355" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-runners-google-cloud-dataflow-java/srcs/beam-runners-google-cloud-dataflow-java-2.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/beam/beam-runners-google-cloud-dataflow-java/2.1.0/beam-runners-google-cloud-dataflow-java-2.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.apis" name="google-api-services-clouddebugger">
+			<revision name="v2-rev8-1.22.0" status="release" pubdate="20160506195825" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="104">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3174" time="0" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-clouddebugger/ivy-v2-rev8-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-clouddebugger/v2-rev8-1.22.0/google-api-services-clouddebugger-v2-rev8-1.22.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="v2-rev8-1.22.0" rev-constraint-default="v2-rev8-1.22.0" rev-constraint-dynamic="v2-rev8-1.22.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-api-services-clouddebugger" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="208787" time="2260" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-clouddebugger/srcs/google-api-services-clouddebugger-v2-rev8-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-clouddebugger/v2-rev8-1.22.0/google-api-services-clouddebugger-v2-rev8-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.beam" name="beam-sdks-common-runner-api">
+			<revision name="2.1.0" status="release" pubdate="20170808155859" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="37497" time="0" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-sdks-common-runner-api/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/beam/beam-sdks-common-runner-api/2.1.0/beam-sdks-common-runner-api-2.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="beam-sdks-common-runner-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="175562" time="2572" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-sdks-common-runner-api/srcs/beam-sdks-common-runner-api-2.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/beam/beam-sdks-common-runner-api/2.1.0/beam-sdks-common-runner-api-2.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.2" status="release" pubdate="20171006110218" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/home/semantix/.ivy2/cache/com.typesafe/config/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="172766" time="2213" location="/home/semantix/.ivy2/cache/com.typesafe/config/srcs/config-1.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.apis" name="google-api-services-dataflow">
+			<revision name="v1b3-rev196-1.22.0" status="release" pubdate="20170419000635" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3168" time="0" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-dataflow/ivy-v1b3-rev196-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-dataflow/v1b3-rev196-1.22.0/google-api-services-dataflow-v1b3-rev196-1.22.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="v1b3-rev196-1.22.0" rev-constraint-default="v1b3-rev196-1.22.0" rev-constraint-dynamic="v1b3-rev196-1.22.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-api-services-dataflow" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="841831" time="2922" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-dataflow/srcs/google-api-services-dataflow-v1b3-rev196-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-dataflow/v1b3-rev196-1.22.0/google-api-services-dataflow-v1b3-rev196-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.4" status="release" pubdate="20171011040456" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="25">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/home/semantix/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="991177" time="7035" location="/home/semantix/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.beam" name="beam-sdks-java-io-google-cloud-platform">
+			<revision name="2.1.0" status="release" pubdate="20170808162532" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="49856" time="0" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-sdks-java-io-google-cloud-platform/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/beam/beam-sdks-java-io-google-cloud-platform/2.1.0/beam-sdks-java-io-google-cloud-platform-2.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="beam-sdks-java-io-google-cloud-platform" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="215910" time="1212" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-sdks-java-io-google-cloud-platform/srcs/beam-sdks-java-io-google-cloud-platform-2.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/beam/beam-sdks-java-io-google-cloud-platform/2.1.0/beam-sdks-java-io-google-cloud-platform-2.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.beam" name="beam-runners-direct-java">
+			<revision name="2.1.0" status="release" pubdate="20170808161637" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="38355" time="0" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-runners-direct-java/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/beam/beam-runners-direct-java/2.1.0/beam-runners-direct-java-2.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="beam-runners-direct-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="168014" time="2312" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-runners-direct-java/srcs/beam-runners-direct-java-2.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/beam/beam-runners-direct-java/2.1.0/beam-runners-direct-java-2.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="proto-google-cloud-spanner-admin-database-v1">
+			<revision name="0.1.9" status="release" pubdate="20170424183800" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3251" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-cloud-spanner-admin-database-v1/ivy-0.1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-admin-database-v1/0.1.9/proto-google-cloud-spanner-admin-database-v1-0.1.9.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.9" rev-constraint-default="0.1.9" rev-constraint-dynamic="0.1.9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="proto-google-cloud-spanner-admin-database-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="59866" time="1508" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-cloud-spanner-admin-database-v1/srcs/proto-google-cloud-spanner-admin-database-v1-0.1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-admin-database-v1/0.1.9/proto-google-cloud-spanner-admin-database-v1-0.1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="proto-google-common-protos">
+			<revision name="0.1.9" status="release" pubdate="20170424191412" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="91">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2876" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-common-protos/ivy-0.1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-common-protos/0.1.9/proto-google-common-protos-0.1.9.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.9" rev-constraint-default="0.1.9" rev-constraint-dynamic="0.1.9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="proto-google-common-protos" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="731862" time="6188" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-common-protos/srcs/proto-google-common-protos-0.1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-common-protos/0.1.9/proto-google-common-protos-0.1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="20.0" status="release" pubdate="20161028185635" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6358" time="0" location="/home/semantix/.ivy2/cache/com.google.guava/guava/ivy-20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="20.0" rev-constraint-default="20.0" rev-constraint-dynamic="20.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1453695" time="33336" location="/home/semantix/.ivy2/cache/com.google.guava/guava/srcs/guava-20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.bigtable" name="bigtable-client-core">
+			<revision name="0.9.7.1" status="release" pubdate="20170619153605" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="16644" time="0" location="/home/semantix/.ivy2/cache/com.google.cloud.bigtable/bigtable-client-core/ivy-0.9.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/bigtable/bigtable-client-core/0.9.7.1/bigtable-client-core-0.9.7.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.9.7.1" rev-constraint-default="0.9.7.1" rev-constraint-dynamic="0.9.7.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="bigtable-client-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="128748" time="2048" location="/home/semantix/.ivy2/cache/com.google.cloud.bigtable/bigtable-client-core/srcs/bigtable-client-core-0.9.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/bigtable/bigtable-client-core/0.9.7.1/bigtable-client-core-0.9.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.dropwizard.metrics" name="metrics-core">
+			<revision name="3.1.2" status="release" pubdate="20150426005901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="90">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="5135" time="0" location="/home/semantix/.ivy2/cache/io.dropwizard.metrics/metrics-core/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="52914" time="0" location="/home/semantix/.ivy2/cache/io.dropwizard.metrics/metrics-core/srcs/metrics-core-3.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.instrumentation" name="instrumentation-api">
+			<revision name="0.4.2" status="release" pubdate="20170425152305" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/google/instrumentation-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="102">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3612" time="0" location="/home/semantix/.ivy2/cache/com.google.instrumentation/instrumentation-api/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/instrumentation/instrumentation-api/0.4.2/instrumentation-api-0.4.2.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="instrumentation-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="72799" time="693" location="/home/semantix/.ivy2/cache/com.google.instrumentation/instrumentation-api/srcs/instrumentation-api-0.4.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/instrumentation/instrumentation-api/0.4.2/instrumentation-api-0.4.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.auth" name="google-auth-library-appengine">
+			<revision name="0.6.1" status="release" pubdate="20170405195449" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="BSD New license" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="6764" time="0" location="/home/semantix/.ivy2/cache/com.google.auth/google-auth-library-appengine/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/auth/google-auth-library-appengine/0.6.1/google-auth-library-appengine-0.6.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-auth-library-appengine" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2809" time="1766" location="/home/semantix/.ivy2/cache/com.google.auth/google-auth-library-appengine/srcs/google-auth-library-appengine-0.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/auth/google-auth-library-appengine/0.6.1/google-auth-library-appengine-0.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.bigtable" name="bigtable-protos">
+			<revision name="0.9.7.1" status="release" pubdate="20170619153609" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="14109" time="0" location="/home/semantix/.ivy2/cache/com.google.cloud.bigtable/bigtable-protos/ivy-0.9.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/bigtable/bigtable-protos/0.9.7.1/bigtable-protos-0.9.7.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.9.7.1" rev-constraint-default="0.9.7.1" rev-constraint-dynamic="0.9.7.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="bigtable-protos" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="317819" time="3170" location="/home/semantix/.ivy2/cache/com.google.cloud.bigtable/bigtable-protos/srcs/bigtable-protos-0.9.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/bigtable/bigtable-protos/0.9.7.1/bigtable-protos-0.9.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.grpc" name="grpc-protobuf">
+			<revision name="1.3.0" status="release" pubdate="20170426214419" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/grpc/grpc-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="98">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3942" time="0" location="/home/semantix/.ivy2/cache/io.grpc/grpc-protobuf/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/grpc/grpc-protobuf/1.3.0/grpc-protobuf-1.3.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-protobuf" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5748" time="840" location="/home/semantix/.ivy2/cache/io.grpc/grpc-protobuf/srcs/grpc-protobuf-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/grpc/grpc-protobuf/1.3.0/grpc-protobuf-1.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.grpc" name="grpc-protobuf-lite">
+			<revision name="1.3.0" status="release" pubdate="20170426214427" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/grpc/grpc-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="81">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3166" time="0" location="/home/semantix/.ivy2/cache/io.grpc/grpc-protobuf-lite/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/grpc/grpc-protobuf-lite/1.3.0/grpc-protobuf-lite-1.3.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-protobuf-lite" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5729" time="1059" location="/home/semantix/.ivy2/cache/io.grpc/grpc-protobuf-lite/srcs/grpc-protobuf-lite-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/grpc/grpc-protobuf-lite/1.3.0/grpc-protobuf-lite-1.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-lite">
+			<revision name="3.0.1" status="release" pubdate="20160728202402" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="5185" time="0" location="/home/semantix/.ivy2/cache/com.google.protobuf/protobuf-lite/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-lite/3.0.1/protobuf-lite-3.0.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protobuf-lite" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="500270" time="6060" location="/home/semantix/.ivy2/cache/com.google.protobuf/protobuf-lite/srcs/protobuf-lite-3.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-lite/3.0.1/protobuf-lite-3.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="grpc-google-common-protos">
+			<revision name="0.1.6" status="release" pubdate="20170118210915" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="106">
+				<license name="Apache-2.0" url=""/>
+				<metadata-artifact status="no" details="" size="2956" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-common-protos/ivy-0.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-common-protos/0.1.6/grpc-google-common-protos-0.1.6.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-google-common-protos" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="451190" time="4294" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-common-protos/srcs/grpc-google-common-protos-0.1.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-common-protos/0.1.6/grpc-google-common-protos-0.1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud" name="google-cloud-spanner">
+			<revision name="0.20.0-beta" status="release" pubdate="20170615140842" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-spanner" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="Google Cloud Software License" url="https://raw.githubusercontent.com/GoogleCloudPlatform/google-cloud-java/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="18573" time="0" location="/home/semantix/.ivy2/cache/com.google.cloud/google-cloud-spanner/ivy-0.20.0-beta.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/google-cloud-spanner/0.20.0-beta/google-cloud-spanner-0.20.0-beta.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.20.0-beta" rev-constraint-default="0.20.0-beta" rev-constraint-dynamic="0.20.0-beta" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-cloud-spanner" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="130870" time="2364" location="/home/semantix/.ivy2/cache/com.google.cloud/google-cloud-spanner/srcs/google-cloud-spanner-0.20.0-beta-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/google-cloud-spanner/0.20.0-beta/google-cloud-spanner-0.20.0-beta-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="grpc-google-cloud-spanner-admin-instance-v1">
+			<revision name="0.1.11" status="release" pubdate="20170518033519" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3086" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-cloud-spanner-admin-instance-v1/ivy-0.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-admin-instance-v1/0.1.11/grpc-google-cloud-spanner-admin-instance-v1-0.1.11.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.11" rev-constraint-default="0.1.11" rev-constraint-dynamic="0.1.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-google-cloud-spanner-admin-instance-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6447" time="1423" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-cloud-spanner-admin-instance-v1/srcs/grpc-google-cloud-spanner-admin-instance-v1-0.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-admin-instance-v1/0.1.11/grpc-google-cloud-spanner-admin-instance-v1-0.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="grpc-google-cloud-spanner-admin-database-v1">
+			<revision name="0.1.11" status="release" pubdate="20170518033507" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3086" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-cloud-spanner-admin-database-v1/ivy-0.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-admin-database-v1/0.1.11/grpc-google-cloud-spanner-admin-database-v1-0.1.11.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.11" rev-constraint-default="0.1.11" rev-constraint-dynamic="0.1.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-google-cloud-spanner-admin-database-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5077" time="1887" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-cloud-spanner-admin-database-v1/srcs/grpc-google-cloud-spanner-admin-database-v1-0.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-admin-database-v1/0.1.11/grpc-google-cloud-spanner-admin-database-v1-0.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="proto-google-cloud-spanner-admin-instance-v1">
+			<revision name="0.1.11" status="release" pubdate="20170518032949" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3253" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-cloud-spanner-admin-instance-v1/ivy-0.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-admin-instance-v1/0.1.11/proto-google-cloud-spanner-admin-instance-v1-0.1.11.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.11" rev-constraint-default="0.1.11" rev-constraint-dynamic="0.1.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="proto-google-cloud-spanner-admin-instance-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="78361" time="1779" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-cloud-spanner-admin-instance-v1/srcs/proto-google-cloud-spanner-admin-instance-v1-0.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-admin-instance-v1/0.1.11/proto-google-cloud-spanner-admin-instance-v1-0.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud" name="google-cloud-core">
+			<revision name="1.0.2" status="release" pubdate="20170518131406" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="107">
+				<license name="Google Cloud Software License" url="https://raw.githubusercontent.com/GoogleCloudPlatform/google-cloud-java/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="17033" time="0" location="/home/semantix/.ivy2/cache/com.google.cloud/google-cloud-core/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/google-cloud-core/1.0.2/google-cloud-core-1.0.2.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-cloud-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="67310" time="1373" location="/home/semantix/.ivy2/cache/com.google.cloud/google-cloud-core/srcs/google-cloud-core-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/google-cloud-core/1.0.2/google-cloud-core-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json" name="json">
+			<revision name="20160810" status="release" pubdate="20160810172609" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/douglascrockford/JSON-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="100">
+				<license name="The JSON License" url="http://json.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4161" time="0" location="/home/semantix/.ivy2/cache/org.json/json/ivy-20160810.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json/json/20160810/json-20160810.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="20160810" rev-constraint-default="20160810" rev-constraint-dynamic="20160810" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="json" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="58172" time="728" location="/home/semantix/.ivy2/cache/org.json/json/srcs/json-20160810-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json/json/20160810/json-20160810-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.grpc" name="grpc-all">
+			<revision name="1.2.0" status="release" pubdate="20170315185556" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/grpc/grpc-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="99">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3954" time="0" location="/home/semantix/.ivy2/cache/io.grpc/grpc-all/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/grpc/grpc-all/1.2.0/grpc-all-1.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-all" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="261" time="729" location="/home/semantix/.ivy2/cache/io.grpc/grpc-all/srcs/grpc-all-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/grpc/grpc-all/1.2.0/grpc-all-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.grpc" name="grpc-protobuf-nano">
+			<revision name="1.2.0" status="release" pubdate="20170315185751" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/grpc/grpc-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3183" time="0" location="/home/semantix/.ivy2/cache/io.grpc/grpc-protobuf-nano/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/grpc/grpc-protobuf-nano/1.2.0/grpc-protobuf-nano-1.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-protobuf-nano" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4965" time="762" location="/home/semantix/.ivy2/cache/io.grpc/grpc-protobuf-nano/srcs/grpc-protobuf-nano-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/grpc/grpc-protobuf-nano/1.2.0/grpc-protobuf-nano-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.grpc" name="grpc-okhttp">
+			<revision name="1.2.0" status="release" pubdate="20170315185729" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/grpc/grpc-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3367" time="0" location="/home/semantix/.ivy2/cache/io.grpc/grpc-okhttp/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/grpc/grpc-okhttp/1.2.0/grpc-okhttp-1.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-okhttp" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="95901" time="1526" location="/home/semantix/.ivy2/cache/io.grpc/grpc-okhttp/srcs/grpc-okhttp-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/grpc/grpc-okhttp/1.2.0/grpc-okhttp-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.squareup.okhttp" name="okhttp">
+			<revision name="2.5.0" status="release" pubdate="20150825221331" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5140" time="0" location="/home/semantix/.ivy2/cache/com.squareup.okhttp/okhttp/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okhttp/okhttp/2.5.0/okhttp-2.5.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="okhttp" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="215818" time="1287" location="/home/semantix/.ivy2/cache/com.squareup.okhttp/okhttp/srcs/okhttp-2.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/squareup/okhttp/okhttp/2.5.0/okhttp-2.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.squareup.okio" name="okio">
+			<revision name="1.6.0" status="release" pubdate="20150825205953" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4340" time="0" location="/home/semantix/.ivy2/cache/com.squareup.okio/okio/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="okio" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="53644" time="717" location="/home/semantix/.ivy2/cache/com.squareup.okio/okio/srcs/okio-1.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.datastore" name="datastore-v1-proto-client">
+			<revision name="1.4.0" status="release" pubdate="20170127165320" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6071" time="0" location="/home/semantix/.ivy2/cache/com.google.cloud.datastore/datastore-v1-proto-client/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/datastore/datastore-v1-proto-client/1.4.0/datastore-v1-proto-client-1.4.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="datastore-v1-proto-client" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="26184" time="891" location="/home/semantix/.ivy2/cache/com.google.cloud.datastore/datastore-v1-proto-client/srcs/datastore-v1-proto-client-1.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/datastore/datastore-v1-proto-client/1.4.0/datastore-v1-proto-client-1.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.http-client" name="google-http-client-protobuf">
+			<revision name="1.20.0" status="release" pubdate="20150318205220" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="109">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9768" time="0" location="/home/semantix/.ivy2/cache/com.google.http-client/google-http-client-protobuf/ivy-1.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-protobuf/1.20.0/google-http-client-protobuf-1.20.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.20.0" rev-constraint-default="1.20.0" rev-constraint-dynamic="1.20.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-http-client-protobuf" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6196" time="1084" location="/home/semantix/.ivy2/cache/com.google.http-client/google-http-client-protobuf/srcs/google-http-client-protobuf-1.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-protobuf/1.20.0/google-http-client-protobuf-1.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.datastore" name="datastore-v1-protos">
+			<revision name="1.3.0" status="release" pubdate="20160930194656" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://cloud.google.com/datastore/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="82">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4020" time="0" location="/home/semantix/.ivy2/cache/com.google.cloud.datastore/datastore-v1-protos/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/datastore/datastore-v1-protos/1.3.0/datastore-v1-protos-1.3.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="datastore-v1-protos" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="418418" time="1331" location="/home/semantix/.ivy2/cache/com.google.cloud.datastore/datastore-v1-protos/srcs/datastore-v1-protos-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/datastore/datastore-v1-protos/1.3.0/datastore-v1-protos-1.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="grpc-google-pubsub-v1">
+			<revision name="0.1.0" status="release" pubdate="20160920214359" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache-2.0" url=""/>
+				<metadata-artifact status="no" details="" size="3120" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-pubsub-v1/ivy-0.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-pubsub-v1/0.1.0/grpc-google-pubsub-v1-0.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.0" rev-constraint-default="0.1.0" rev-constraint-dynamic="0.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-google-pubsub-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="110982" time="2110" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-pubsub-v1/srcs/grpc-google-pubsub-v1-0.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-pubsub-v1/0.1.0/grpc-google-pubsub-v1-0.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="grpc-google-iam-v1">
+			<revision name="0.1.0" status="release" pubdate="20160920214350" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="Apache-2.0" url=""/>
+				<metadata-artifact status="no" details="" size="2792" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-iam-v1/ivy-0.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-iam-v1/0.1.0/grpc-google-iam-v1-0.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.0" rev-constraint-default="0.1.0" rev-constraint-dynamic="0.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-google-iam-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="32503" time="1209" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-iam-v1/srcs/grpc-google-iam-v1-0.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-iam-v1/0.1.0/grpc-google-iam-v1-0.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.apis" name="google-api-services-pubsub">
+			<revision name="v1-rev10-1.22.0" status="release" pubdate="20160506202042" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3161" time="0" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-pubsub/ivy-v1-rev10-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-pubsub/v1-rev10-1.22.0/google-api-services-pubsub-v1-rev10-1.22.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="v1-rev10-1.22.0" rev-constraint-default="v1-rev10-1.22.0" rev-constraint-dynamic="v1-rev10-1.22.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-api-services-pubsub" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="246525" time="2489" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-pubsub/srcs/google-api-services-pubsub-v1-rev10-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-pubsub/v1-rev10-1.22.0/google-api-services-pubsub-v1-rev10-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud" name="google-cloud-core-grpc">
+			<revision name="1.2.0" status="release" pubdate="20170615140925" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-core-grpc" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Google Cloud Software License" url="https://raw.githubusercontent.com/GoogleCloudPlatform/google-cloud-java/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="16736" time="0" location="/home/semantix/.ivy2/cache/com.google.cloud/google-cloud-core-grpc/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/google-cloud-core-grpc/1.2.0/google-cloud-core-grpc-1.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-cloud-core-grpc" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4550" time="1080" location="/home/semantix/.ivy2/cache/com.google.cloud/google-cloud-core-grpc/srcs/google-cloud-core-grpc-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/google-cloud-core-grpc/1.2.0/google-cloud-core-grpc-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java-util">
+			<revision name="3.2.0" status="release" pubdate="20170128003322" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="5470" time="0" location="/home/semantix/.ivy2/cache/com.google.protobuf/protobuf-java-util/ivy-3.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java-util/3.2.0/protobuf-java-util-3.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protobuf-java-util" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30690" time="1606" location="/home/semantix/.ivy2/cache/com.google.protobuf/protobuf-java-util/srcs/protobuf-java-util-3.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java-util/3.2.0/protobuf-java-util-3.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api" name="gax-grpc">
+			<revision name="0.20.0" status="release" pubdate="20170605213322" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="BSD" url="https://github.com/googleapis/gax-java/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="6599" time="0" location="/home/semantix/.ivy2/cache/com.google.api/gax-grpc/ivy-0.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/gax-grpc/0.20.0/gax-grpc-0.20.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.20.0" rev-constraint-default="0.20.0" rev-constraint-dynamic="0.20.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gax-grpc" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="110434" time="1572" location="/home/semantix/.ivy2/cache/com.google.api/gax-grpc/srcs/gax-grpc-0.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/gax-grpc/0.20.0/gax-grpc-0.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api" name="gax">
+			<revision name="1.3.1" status="release" pubdate="20170605213236" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="BSD" url="https://github.com/googleapis/gax-java/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="4336" time="0" location="/home/semantix/.ivy2/cache/com.google.api/gax/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/gax/1.3.1/gax-1.3.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gax" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="61976" time="1800" location="/home/semantix/.ivy2/cache/com.google.api/gax/srcs/gax-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/gax/1.3.1/gax-1.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.threeten" name="threetenbp">
+			<revision name="1.3.3" status="release" pubdate="20161219212602" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.threeten.org/threetenbp" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD 3-clause" url="https://raw.githubusercontent.com/ThreeTen/threetenbp/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="6428" time="0" location="/home/semantix/.ivy2/cache/org.threeten/threetenbp/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/threeten/threetenbp/1.3.3/threetenbp-1.3.3.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="threetenbp" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="507166" time="2301" location="/home/semantix/.ivy2/cache/org.threeten/threetenbp/srcs/threetenbp-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/threeten/threetenbp/1.3.3/threetenbp-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.auto.value" name="auto-value">
+			<revision name="1.2" status="release" pubdate="20160405141815" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4785" time="0" location="/home/semantix/.ivy2/cache/com.google.auto.value/auto-value/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/auto/value/auto-value/1.2/auto-value-1.2.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="auto-value" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="111354" time="2210" location="/home/semantix/.ivy2/cache/com.google.auto.value/auto-value/srcs/auto-value-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/auto/value/auto-value/1.2/auto-value-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api" name="api-common">
+			<revision name="1.1.0" status="release" pubdate="20170510200843" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="BSD" url="https://github.com/googleapis/api-common-java/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3293" time="0" location="/home/semantix/.ivy2/cache/com.google.api/api-common/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/api-common/1.1.0/api-common-1.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="api-common" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="44947" time="1005" location="/home/semantix/.ivy2/cache/com.google.api/api-common/srcs/api-common-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/api-common/1.1.0/api-common-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.grpc" name="grpc-auth">
+			<revision name="1.2.0" status="release" pubdate="20170315185603" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/grpc/grpc-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="94">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3156" time="0" location="/home/semantix/.ivy2/cache/io.grpc/grpc-auth/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/grpc/grpc-auth/1.2.0/grpc-auth-1.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-auth" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="8241" time="771" location="/home/semantix/.ivy2/cache/io.grpc/grpc-auth/srcs/grpc-auth-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/grpc/grpc-auth/1.2.0/grpc-auth-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.grpc" name="grpc-netty">
+			<revision name="1.2.0" status="release" pubdate="20170315185722" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/grpc/grpc-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3412" time="0" location="/home/semantix/.ivy2/cache/io.grpc/grpc-netty/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/grpc/grpc-netty/1.2.0/grpc-netty-1.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-netty" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="97955" time="1698" location="/home/semantix/.ivy2/cache/io.grpc/grpc-netty/srcs/grpc-netty-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/grpc/grpc-netty/1.2.0/grpc-netty-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-tcnative-boringssl-static">
+			<revision name="1.1.33.Fork26" status="release" pubdate="20170120134032" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="13400" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-tcnative-boringssl-static/ivy-1.1.33.Fork26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-tcnative-boringssl-static/1.1.33.Fork26/netty-tcnative-boringssl-static-1.1.33.Fork26.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.1.33.Fork26" rev-constraint-default="1.1.33.Fork26" rev-constraint-dynamic="1.1.33.Fork26" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-tcnative-boringssl-static" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="99822" time="813" location="/home/semantix/.ivy2/cache/io.netty/netty-tcnative-boringssl-static/srcs/netty-tcnative-boringssl-static-1.1.33.Fork26-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-tcnative-boringssl-static/1.1.33.Fork26/netty-tcnative-boringssl-static-1.1.33.Fork26-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler-proxy">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130123140" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16774" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-handler-proxy/ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.8.Final/netty-handler-proxy-4.1.8.Final.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-handler-proxy" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="14106" time="737" location="/home/semantix/.ivy2/cache/io.netty/netty-handler-proxy/srcs/netty-handler-proxy-4.1.8.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.8.Final/netty-handler-proxy-4.1.8.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-socks">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130122941" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16344" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-codec-socks/ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.8.Final/netty-codec-socks-4.1.8.Final.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec-socks" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86786" time="963" location="/home/semantix/.ivy2/cache/io.netty/netty-codec-socks/srcs/netty-codec-socks-4.1.8.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.8.Final/netty-codec-socks-4.1.8.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http2">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130122840" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16728" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-codec-http2/ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.8.Final/netty-codec-http2-4.1.8.Final.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec-http2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="242484" time="2343" location="/home/semantix/.ivy2/cache/io.netty/netty-codec-http2/srcs/netty-codec-http2-4.1.8.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.8.Final/netty-codec-http2-4.1.8.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.7" status="release" pubdate="20160614205554" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3503" time="0" location="/home/semantix/.ivy2/cache/com.google.code.gson/gson/ivy-2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.7" rev-constraint-default="2.7" rev-constraint-dynamic="2.7" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="146667" time="2205" location="/home/semantix/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130122803" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16584" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-codec-http/ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.8.Final/netty-codec-http-4.1.8.Final.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec-http" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="423121" time="4447" location="/home/semantix/.ivy2/cache/io.netty/netty-codec-http/srcs/netty-codec-http-4.1.8.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.8.Final/netty-codec-http-4.1.8.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130122723" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17334" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-handler/ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.8.Final/netty-handler-4.1.8.Final.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-handler" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="229645" time="2426" location="/home/semantix/.ivy2/cache/io.netty/netty-handler/srcs/netty-handler-4.1.8.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.8.Final/netty-handler-4.1.8.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130122528" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17663" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-codec/ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.8.Final/netty-codec-4.1.8.Final.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="256053" time="1797" location="/home/semantix/.ivy2/cache/io.netty/netty-codec/srcs/netty-codec-4.1.8.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.8.Final/netty-codec-4.1.8.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf.nano" name="protobuf-javanano">
+			<revision name="3.0.0-alpha-5" status="release" pubdate="20160106211743" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://developers.google.com/protocol-buffers/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="92">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3271" time="0" location="/home/semantix/.ivy2/cache/com.google.protobuf.nano/protobuf-javanano/ivy-3.0.0-alpha-5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/nano/protobuf-javanano/3.0.0-alpha-5/protobuf-javanano-3.0.0-alpha-5.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="3.0.0-alpha-5" rev-constraint-default="3.0.0-alpha-5" rev-constraint-dynamic="3.0.0-alpha-5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protobuf-javanano" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="46913" time="1044" location="/home/semantix/.ivy2/cache/com.google.protobuf.nano/protobuf-javanano/srcs/protobuf-javanano-3.0.0-alpha-5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/nano/protobuf-javanano/3.0.0-alpha-5/protobuf-javanano-3.0.0-alpha-5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.apis" name="google-api-services-bigquery">
+			<revision name="v2-rev295-1.22.0" status="release" pubdate="20160506193142" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="89">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3166" time="0" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-bigquery/ivy-v2-rev295-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-bigquery/v2-rev295-1.22.0/google-api-services-bigquery-v2-rev295-1.22.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="v2-rev295-1.22.0" rev-constraint-default="v2-rev295-1.22.0" rev-constraint-dynamic="v2-rev295-1.22.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-api-services-bigquery" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="488252" time="5049" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-bigquery/srcs/google-api-services-bigquery-v2-rev295-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-bigquery/v2-rev295-1.22.0/google-api-services-bigquery-v2-rev295-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.beam" name="beam-sdks-java-extensions-protobuf">
+			<revision name="2.1.0" status="release" pubdate="20170808162352" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="43272" time="0" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-sdks-java-extensions-protobuf/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/beam/beam-sdks-java-extensions-protobuf/2.1.0/beam-sdks-java-extensions-protobuf-2.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="beam-sdks-java-extensions-protobuf" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="18552" time="730" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-sdks-java-extensions-protobuf/srcs/beam-sdks-java-extensions-protobuf-2.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/beam/beam-sdks-java-extensions-protobuf/2.1.0/beam-sdks-java-extensions-protobuf-2.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.beam" name="beam-sdks-java-extensions-google-cloud-platform-core">
+			<revision name="2.1.0" status="release" pubdate="20170808162244" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="46447" time="0" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-sdks-java-extensions-google-cloud-platform-core/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/beam/beam-sdks-java-extensions-google-cloud-platform-core/2.1.0/beam-sdks-java-extensions-google-cloud-platform-core-2.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="beam-sdks-java-extensions-google-cloud-platform-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="61690" time="1420" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-sdks-java-extensions-google-cloud-platform-core/srcs/beam-sdks-java-extensions-google-cloud-platform-core-2.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/beam/beam-sdks-java-extensions-google-cloud-platform-core/2.1.0/beam-sdks-java-extensions-google-cloud-platform-core-2.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.apis" name="google-api-services-storage">
+			<revision name="v1-rev71-1.22.0" status="release" pubdate="20160506211319" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="111">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3163" time="0" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-storage/ivy-v1-rev71-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-storage/v1-rev71-1.22.0/google-api-services-storage-v1-rev71-1.22.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="v1-rev71-1.22.0" rev-constraint-default="v1-rev71-1.22.0" rev-constraint-dynamic="v1-rev71-1.22.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-api-services-storage" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="395241" time="6731" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-storage/srcs/google-api-services-storage-v1-rev71-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-storage/v1-rev71-1.22.0/google-api-services-storage-v1-rev71-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.apis" name="google-api-services-cloudresourcemanager">
+			<revision name="v1-rev6-1.22.0" status="release" pubdate="20160620183756" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3188" time="0" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-cloudresourcemanager/ivy-v1-rev6-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-cloudresourcemanager/v1-rev6-1.22.0/google-api-services-cloudresourcemanager-v1-rev6-1.22.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="v1-rev6-1.22.0" rev-constraint-default="v1-rev6-1.22.0" rev-constraint-dynamic="v1-rev6-1.22.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-api-services-cloudresourcemanager" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="146934" time="3308" location="/home/semantix/.ivy2/cache/com.google.apis/google-api-services-cloudresourcemanager/srcs/google-api-services-cloudresourcemanager-v1-rev6-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-cloudresourcemanager/v1-rev6-1.22.0/google-api-services-cloudresourcemanager-v1-rev6-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.bigdataoss" name="gcsio">
+			<revision name="1.4.5" status="release" pubdate="20160328171015" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="14091" time="0" location="/home/semantix/.ivy2/cache/com.google.cloud.bigdataoss/gcsio/ivy-1.4.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/gcsio/1.4.5/gcsio-1.4.5.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.4.5" rev-constraint-default="1.4.5" rev-constraint-dynamic="1.4.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gcsio" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="113896" time="2587" location="/home/semantix/.ivy2/cache/com.google.cloud.bigdataoss/gcsio/srcs/gcsio-1.4.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/gcsio/1.4.5/gcsio-1.4.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.bigdataoss" name="util">
+			<revision name="1.4.5" status="release" pubdate="20160328170950" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="13672" time="0" location="/home/semantix/.ivy2/cache/com.google.cloud.bigdataoss/util/ivy-1.4.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/util/1.4.5/util-1.4.5.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.4.5" rev-constraint-default="1.4.5" rev-constraint-dynamic="1.4.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="util" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="36784" time="895" location="/home/semantix/.ivy2/cache/com.google.cloud.bigdataoss/util/srcs/util-1.4.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/util/1.4.5/util-1.4.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api-client" name="google-api-client-jackson2">
+			<revision name="1.20.0" status="release" pubdate="20150318214114" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="96">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11256" time="0" location="/home/semantix/.ivy2/cache/com.google.api-client/google-api-client-jackson2/ivy-1.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client-jackson2/1.20.0/google-api-client-jackson2-1.20.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.20.0" rev-constraint-default="1.20.0" rev-constraint-dynamic="1.20.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-api-client-jackson2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3505" time="946" location="/home/semantix/.ivy2/cache/com.google.api-client/google-api-client-jackson2/srcs/google-api-client-jackson2-1.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client-jackson2/1.20.0/google-api-client-jackson2-1.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api-client" name="google-api-client-java6">
+			<revision name="1.20.0" status="release" pubdate="20150318214121" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11408" time="0" location="/home/semantix/.ivy2/cache/com.google.api-client/google-api-client-java6/ivy-1.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client-java6/1.20.0/google-api-client-java6-1.20.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.20.0" rev-constraint-default="1.20.0" rev-constraint-dynamic="1.20.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-api-client-java6" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3267" time="896" location="/home/semantix/.ivy2/cache/com.google.api-client/google-api-client-java6/srcs/google-api-client-java6-1.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client-java6/1.20.0/google-api-client-java6-1.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.oauth-client" name="google-oauth-client-java6">
+			<revision name="1.20.0" status="release" pubdate="20150318212818" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9579" time="0" location="/home/semantix/.ivy2/cache/com.google.oauth-client/google-oauth-client-java6/ivy-1.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.20.0/google-oauth-client-java6-1.20.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.20.0" rev-constraint-default="1.20.0" rev-constraint-dynamic="1.20.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-oauth-client-java6" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11163" time="1270" location="/home/semantix/.ivy2/cache/com.google.oauth-client/google-oauth-client-java6/srcs/google-oauth-client-java6-1.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.20.0/google-oauth-client-java6-1.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.http-client" name="google-http-client-jackson">
+			<revision name="1.20.0" status="release" pubdate="20150318205238" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10002" time="0" location="/home/semantix/.ivy2/cache/com.google.http-client/google-http-client-jackson/ivy-1.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson/1.20.0/google-http-client-jackson-1.20.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.20.0" rev-constraint-default="1.20.0" rev-constraint-dynamic="1.20.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-http-client-jackson" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5344" time="958" location="/home/semantix/.ivy2/cache/com.google.http-client/google-http-client-jackson/srcs/google-http-client-jackson-1.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson/1.20.0/google-http-client-jackson-1.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api-client" name="google-api-client">
+			<revision name="1.22.0" status="release" pubdate="20160502204251" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11981" time="0" location="/home/semantix/.ivy2/cache/com.google.api-client/google-api-client/ivy-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client/1.22.0/google-api-client-1.22.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-api-client" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="192421" time="1054" location="/home/semantix/.ivy2/cache/com.google.api-client/google-api-client/srcs/google-api-client-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client/1.22.0/google-api-client-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.oauth-client" name="google-oauth-client">
+			<revision name="1.22.0" status="release" pubdate="20160502194710" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9866" time="0" location="/home/semantix/.ivy2/cache/com.google.oauth-client/google-oauth-client/ivy-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.22.0/google-oauth-client-1.22.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-oauth-client" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="67282" time="750" location="/home/semantix/.ivy2/cache/com.google.oauth-client/google-oauth-client/srcs/google-oauth-client-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.22.0/google-oauth-client-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.auth" name="google-auth-library-oauth2-http">
+			<revision name="0.7.1" status="release" pubdate="20170714215251" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<license name="BSD New license" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="6179" time="0" location="/home/semantix/.ivy2/cache/com.google.auth/google-auth-library-oauth2-http/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.7.1/google-auth-library-oauth2-http-0.7.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-auth-library-oauth2-http" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="48643" time="1096" location="/home/semantix/.ivy2/cache/com.google.auth/google-auth-library-oauth2-http/srcs/google-auth-library-oauth2-http-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.7.1/google-auth-library-oauth2-http-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.auth" name="google-auth-library-credentials">
+			<revision name="0.7.1" status="release" pubdate="20170714215302" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="BSD New license" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="5546" time="0" location="/home/semantix/.ivy2/cache/com.google.auth/google-auth-library-credentials/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.7.1/google-auth-library-credentials-0.7.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-auth-library-credentials" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5773" time="984" location="/home/semantix/.ivy2/cache/com.google.auth/google-auth-library-credentials/srcs/google-auth-library-credentials-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.7.1/google-auth-library-credentials-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.http-client" name="google-http-client-jackson2">
+			<revision name="1.22.0" status="release" pubdate="20160502194447" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10005" time="0" location="/home/semantix/.ivy2/cache/com.google.http-client/google-http-client-jackson2/ivy-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.22.0/google-http-client-jackson2-1.22.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-http-client-jackson2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5483" time="718" location="/home/semantix/.ivy2/cache/com.google.http-client/google-http-client-jackson2/srcs/google-http-client-jackson2-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.22.0/google-http-client-jackson2-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.http-client" name="google-http-client">
+			<revision name="1.22.0" status="release" pubdate="20160502194327" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10506" time="0" location="/home/semantix/.ivy2/cache/com.google.http-client/google-http-client/ivy-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="google-http-client" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="266841" time="6229" location="/home/semantix/.ivy2/cache/com.google.http-client/google-http-client/srcs/google-http-client-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.0.1" status="release" pubdate="20091209172018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="Apache License" url="../LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5178" time="0" location="/home/semantix/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="389445" time="3792" location="/home/semantix/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.3" status="release" pubdate="20051108202951" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2923" time="0" location="/home/semantix/.ivy2/cache/commons-codec/commons-codec/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="55191" time="741" location="/home/semantix/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.0.1" status="release" pubdate="20090621080836" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4460" time="0" location="/home/semantix/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="291844" time="1886" location="/home/semantix/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava-jdk5">
+			<revision name="17.0" status="release" pubdate="20140422180923" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="95">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5878" time="0" location="/home/semantix/.ivy2/cache/com.google.guava/guava-jdk5/ivy-17.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="17.0" rev-constraint-default="17.0" rev-constraint-dynamic="17.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guava-jdk5" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1225484" time="3785" location="/home/semantix/.ivy2/cache/com.google.guava/guava-jdk5/srcs/guava-jdk5-17.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.beam" name="beam-sdks-java-core">
+			<revision name="2.1.0" status="release" pubdate="20170808160544" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="41545" time="0" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-sdks-java-core/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/beam/beam-sdks-java-core/2.1.0/beam-sdks-java-core-2.1.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="beam-sdks-java-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="877063" time="4811" location="/home/semantix/.ivy2/cache/org.apache.beam/beam-sdks-java-core/srcs/beam-sdks-java-core-2.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/beam/beam-sdks-java-core/2.1.0/beam-sdks-java-core-2.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.4" status="release" pubdate="20140727134345" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6506" time="0" location="/home/semantix/.ivy2/cache/joda-time/joda-time/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.4/joda-time-2.4.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="736218" time="1856" location="/home/semantix/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.4/joda-time-2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro">
+			<revision name="1.8.2" status="release" pubdate="20170507155247" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12076" time="0" location="/home/semantix/.ivy2/cache/org.apache.avro/avro/ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="avro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="300643" time="0" location="/home/semantix/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.8.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.8.1" status="release" pubdate="20140509161752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10390" time="0" location="/home/semantix/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="377163" time="0" location="/home/semantix/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.5" status="release" pubdate="20140308083924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2403" time="0" location="/home/semantix/.ivy2/cache/org.tukaani/xz/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117832" time="0" location="/home/semantix/.ivy2/cache/org.tukaani/xz/srcs/xz-1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.7" status="release" pubdate="20140816172110" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4248" time="0" location="/home/semantix/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.7" rev-constraint-default="2.7" rev-constraint-dynamic="2.7" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="27052" time="770" location="/home/semantix/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715000750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2787" time="0" location="/home/semantix/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="548251" time="0" location="/home/semantix/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715000730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2564" time="0" location="/home/semantix/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240367" time="0" location="/home/semantix/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.8.9" status="release" pubdate="20170611215351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="110">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8156" time="0" location="/home/semantix/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="929913" time="9596" location="/home/semantix/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.9" status="release" pubdate="20170611213719" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6969" time="0" location="/home/semantix/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="57660" time="1064" location="/home/semantix/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.8.9" status="release" pubdate="20170611214341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7423" time="0" location="/home/semantix/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="294668" time="5505" location="/home/semantix/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.1" status="release" pubdate="20151009020635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3268" time="0" location="/home/semantix/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="16622" time="1488" location="/home/semantix/.ivy2/cache/com.google.code.findbugs/jsr305/srcs/jsr305-3.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="grpc-google-cloud-spanner-v1">
+			<revision name="0.1.11" status="release" pubdate="20170518033530" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3026" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-cloud-spanner-v1/ivy-0.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-v1/0.1.11/grpc-google-cloud-spanner-v1-0.1.11.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.11" rev-constraint-default="0.1.11" rev-constraint-dynamic="0.1.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-google-cloud-spanner-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5612" time="1182" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-cloud-spanner-v1/srcs/grpc-google-cloud-spanner-v1-0.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-v1/0.1.11/grpc-google-cloud-spanner-v1-0.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="proto-google-cloud-spanner-v1">
+			<revision name="0.1.11" status="release" pubdate="20170518033021" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3051" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-cloud-spanner-v1/ivy-0.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-v1/0.1.11/proto-google-cloud-spanner-v1-0.1.11.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.11" rev-constraint-default="0.1.11" rev-constraint-dynamic="0.1.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="proto-google-cloud-spanner-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="187102" time="8147" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-cloud-spanner-v1/srcs/proto-google-cloud-spanner-v1-0.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-v1/0.1.11/proto-google-cloud-spanner-v1-0.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="grpc-google-longrunning-v1">
+			<revision name="0.1.11" status="release" pubdate="20170518033630" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3018" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-longrunning-v1/ivy-0.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-longrunning-v1/0.1.11/grpc-google-longrunning-v1-0.1.11.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.11" rev-constraint-default="0.1.11" rev-constraint-dynamic="0.1.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-google-longrunning-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3779" time="969" location="/home/semantix/.ivy2/cache/com.google.api.grpc/grpc-google-longrunning-v1/srcs/grpc-google-longrunning-v1-0.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-longrunning-v1/0.1.11/grpc-google-longrunning-v1-0.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="proto-google-longrunning-v1">
+			<revision name="0.1.11" status="release" pubdate="20170518033311" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="97">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3045" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-longrunning-v1/ivy-0.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-longrunning-v1/0.1.11/proto-google-longrunning-v1-0.1.11.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.11" rev-constraint-default="0.1.11" rev-constraint-dynamic="0.1.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="proto-google-longrunning-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="29323" time="1057" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-longrunning-v1/srcs/proto-google-longrunning-v1-0.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-longrunning-v1/0.1.11/proto-google-longrunning-v1-0.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.grpc" name="grpc-stub">
+			<revision name="1.2.0" status="release" pubdate="20170315185806" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/grpc/grpc-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="105">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3080" time="0" location="/home/semantix/.ivy2/cache/io.grpc/grpc-stub/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/grpc/grpc-stub/1.2.0/grpc-stub-1.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-stub" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="22953" time="1964" location="/home/semantix/.ivy2/cache/io.grpc/grpc-stub/srcs/grpc-stub-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/grpc/grpc-stub/1.2.0/grpc-stub-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.grpc" name="grpc-core">
+			<revision name="1.2.0" status="release" pubdate="20170315185645" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/grpc/grpc-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3583" time="0" location="/home/semantix/.ivy2/cache/io.grpc/grpc-core/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/grpc/grpc-core/1.2.0/grpc-core-1.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="334907" time="1735" location="/home/semantix/.ivy2/cache/io.grpc/grpc-core/srcs/grpc-core-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/grpc/grpc-core/1.2.0/grpc-core-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.grpc" name="grpc-context">
+			<revision name="1.2.0" status="release" pubdate="20170315185638" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/grpc/grpc-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2838" time="0" location="/home/semantix/.ivy2/cache/io.grpc/grpc-context/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/grpc/grpc-context/1.2.0/grpc-context-1.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grpc-context" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="13110" time="1342" location="/home/semantix/.ivy2/cache/io.grpc/grpc-context/srcs/grpc-context-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/grpc/grpc-context/1.2.0/grpc-context-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.errorprone" name="error_prone_annotations">
+			<revision name="2.0.11" status="release" pubdate="20160718173234" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="108">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3686" time="0" location="/home/semantix/.ivy2/cache/com.google.errorprone/error_prone_annotations/ivy-2.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.0.11/error_prone_annotations-2.0.11.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="2.0.11" rev-constraint-default="2.0.11" rev-constraint-dynamic="2.0.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="error_prone_annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="16324" time="872" location="/home/semantix/.ivy2/cache/com.google.errorprone/error_prone_annotations/srcs/error_prone_annotations-2.0.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.0.11/error_prone_annotations-2.0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.12">
+			<revision name="3.7.2" status="release" pubdate="20170721103837" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3354" time="0" location="/home/semantix/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/ivy-3.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="3.7.2" rev-constraint-default="3.7.2" rev-constraint-dynamic="3.7.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9121" time="968" location="/home/semantix/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.3" status="release" pubdate="20170331162753" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10412" time="0" location="/home/semantix/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="230201" time="1702" location="/home/semantix/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.2.3" status="release" pubdate="20170331162715" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="103">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="7917" time="0" location="/home/semantix/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="399141" time="2553" location="/home/semantix/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316133632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="56">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5377" time="0" location="/home/semantix/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="55539" time="909" location="/home/semantix/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api.grpc" name="proto-google-iam-v1">
+			<revision name="0.1.11" status="release" pubdate="20170518033259" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/googleapis/googleapis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3021" time="0" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-iam-v1/ivy-0.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-iam-v1/0.1.11/proto-google-iam-v1-0.1.11.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="0.1.11" rev-constraint-default="0.1.11" rev-constraint-dynamic="0.1.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="proto-google-iam-v1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="40775" time="784" location="/home/semantix/.ivy2/cache/com.google.api.grpc/proto-google-iam-v1/srcs/proto-google-iam-v1-0.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-iam-v1/0.1.11/proto-google-iam-v1-0.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="3.2.0" status="release" pubdate="20170128003320" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="5085" time="0" location="/home/semantix/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.2.0/protobuf-java-3.2.0.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="661826" time="9649" location="/home/semantix/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-3.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.2.0/protobuf-java-3.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130122455" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16488" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-transport/ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-transport" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="286457" time="1591" location="/home/semantix/.ivy2/cache/io.netty/netty-transport/srcs/netty-transport-4.1.8.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130122349" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="101">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16339" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-resolver/ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.8.Final/netty-resolver-4.1.8.Final.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-resolver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="22298" time="686" location="/home/semantix/.ivy2/cache/io.netty/netty-resolver/srcs/netty-resolver-4.1.8.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.8.Final/netty-resolver-4.1.8.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130122324" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="80">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16335" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-buffer/ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.8.Final/netty-buffer-4.1.8.Final.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="162022" time="1224" location="/home/semantix/.ivy2/cache/io.netty/netty-buffer/srcs/netty-buffer-4.1.8.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.8.Final/netty-buffer-4.1.8.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130122002" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18876" time="0" location="/home/semantix/.ivy2/cache/io.netty/netty-common/ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.8.Final/netty-common-4.1.8.Final.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-common" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="408838" time="3025" location="/home/semantix/.ivy2/cache/io.netty/netty-common/srcs/netty-common-4.1.8.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.8.Final/netty-common-4.1.8.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.12" status="release" pubdate="20141204141743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="88">
+				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3317" time="0" location="/home/semantix/.ivy2/cache/junit/junit/ivy-4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200355" time="0" location="/home/semantix/.ivy2/cache/junit/junit/srcs/junit-4.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120709180802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="93">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2617" time="0" location="/home/semantix/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32624" time="0" location="/home/semantix/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140705151228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11623" time="0" location="/home/semantix/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="/home/semantix/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.4-M3" status="release" pubdate="20170216161936" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3451" time="0" location="/home/semantix/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.4-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4-M3/snappy-java-1.1.4-M3.pom"/>
+				<caller organisation="beam-template" name="beam-template$sources" conf="compile" rev="1.1.4-M3" rev-constraint-default="1.1.4-M3" rev-constraint-dynamic="1.1.4-M3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1499473" time="14044" location="/home/semantix/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.4-M3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4-M3/snappy-java-1.1.4-M3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
